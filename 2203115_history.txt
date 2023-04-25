@@ -1,0 +1,200 @@
+    1  ls -al
+    2  cat .ssh/id_rsa.pub
+    3  git clone git@github.com:Shas-99/cs102-git-essentials.git
+    4  ls -al
+    5  echo "# this file is created in mancurad" >> mancurad.md
+    6  git add mancurad.md 
+    7  ls
+    8  mv mancurad.md ~/cs102-git-essentials/.
+    9  cd cs102-git-essentials/
+   10  git add mancurad.md 
+   11  git commit mancurad.md -m"mancurad everywhre"
+   12  git push origin main
+   13  git pull origin main
+   14  ls
+   15  cat mancurad.md 
+   16  ls
+   17  ls -al
+   18  cd ..
+   19  ls
+   20  cd .
+   21  pwd
+   22  cd ..
+   23  cd
+   24  ls
+   25  pwd
+   26  ls .ssh
+   27  ls -al
+   28  ssh -keygen -t RSA
+   29  ssh-keygen -t RSA
+   30  ls .ssh
+   31  cat id_rsa.pub
+   32  mail
+   33  who
+   34  ls
+   35  ls -al
+   36  cd cs102-git-essentials/
+   37  ls
+   38  vim mancurad.md 
+   39  git commit mancurad.md -m"update"
+   40  git push origin main
+   41  ls -al .ssh
+   42  ls -al
+   43  cd
+   44  ls -al .ssh
+   45  cat .ssh/id_rsa.pub 
+   46  cat id_rsa.pub
+   47  git --version
+   48  git user.name
+   49  git --global user.name
+   50  git log
+   51  git logs
+   52  ls
+   53  cd cs102-git-essentials/
+   54  git logs
+   55  git log
+   56  cd
+   57  git help -all
+   58  yes
+   59  clear
+   60  git help -all
+   61  git help --all
+   62  clear
+   63  git branch
+   64  ls
+   65  cd cs102-git-essentials/
+   66  git branch
+   67  git branch local
+   68  git branch
+   69  git checkout
+   70  git checkout local
+   71  git branch
+   72  l
+   73  ls
+   74  vim cs102-lecture-notes.txt 
+   75  git commit cs102-lecture-notes.txt -m"local branch"
+   76  git push 
+   77  git push origin main
+   78  git status
+   79  git push origin local
+   80  git checkout
+   81  ls
+   82  who
+   83  wall
+   84  clear
+   85  git clone git@github.com:Shas-99/2203115-lab-exam.git
+   86  git clone https://github.com/tusharlone/cs102-git-essentials.git
+   87  ls
+   88  mv cs102-git-essentials shashank-cs102-git essentials
+   89  mv cs102-git-essentials shashank-cs102-git-essentials
+   90  ls
+   91  git clone https://github.com/tusharlone/cs102-git-essentials.git
+   92  ls
+   93  cd cs102-git-essentials/
+   94  ls
+   95  cp ca_500.csv us_500.csv ~/2203115-lab-exam/
+   96  l
+   97  ls
+   98  cd 2203115-lab-exam
+   99  cd
+  100  ls
+  101  cd 2203115-lab-exam/
+  102  ls
+  103  cd cs102-git-essentials
+  104  cd
+  105  ls
+  106  cd cs102-git-essentials/
+  107  ls
+  108  cp ca_500.csv us_500.csv ~/.
+  109  cd
+  110  ls
+  111  cat ca_500.csv 
+  112  wc -l ca_500.csv 
+  113  cat us_500.csv 
+  114  wc -l us_500.csv 
+  115  468 495
+  116  ls
+  117  head ca_500.csv -n
+  118  head ca_500.csv 1-n
+  119  head ca_500.csv 
+  120  head ca_500.csv 1 -n
+  121  head help
+  122  head -help
+  123  head --help
+  124  head ca_500.csv -1
+  125  head -n 1  ca_500.csv
+  126  head -n 1 us_500.csv 
+  127  grep -iw "Montreal"
+  128  grep -iw "Montreal" ca_500.csv 
+  129  echo "Mammie","Cisney","Arellano, Cecilia S Md","14 E 30th St","Montreal","QC","H1E 1R4","514-205-4258","514-841-9635","mammie@cox.net","http://www.arellanoceciliasmd.com"
+  130  "Tesha","Brang","Butler Tool & Design Inc","831 Vanowen St #5","Montreal","QC","H4K 2N2","514-432-5290","514-232-9502","tesha@aol.com","http://www.butlertooldesigninc.com"
+  131  "Harris","Sheck","New Lans Corporation","9875 Sheafe Rd","Montreal","QC","H2H 1Z2","514-257-9319","514-774-5902","harris@cox.net","http://www.newlanscorporation.com"
+  132  "Maddie","Foulds","Sinclair Machine Products Inc","56 N Wood Ave #25","Montreal","QC","H2M 1W9","514-874-9519","514-545-7912","maddie@hotmail.com","http://www.sinclairmachineproductsinc.com"
+  133  "Steffanie","Meinen","Rosenblum, Donn D Esq","801 W Belmont Ave","Montreal","QC","H3C 5G9","514-964-9106","514-644-9120","steffanie.meinen@cox.net","http://www.rosenblumdonndesq.com"
+  134  "Val","Bigaud","Mpsi Systems Inc","42 N 16th St #620","Montreal","QC","H2C 3A1","514-726-2573","514-233-5869","val_bigaud@aol.com","http://www.mpsisystemsinc.com"
+  135  "Denny","Zeanah","Associated Brokers Inc","339 W 1st St","Montreal","QC","H2Z 1P5","514-224-2722","514-928-4314","denny_zeanah@zeanah.com","http://www.associatedbrokersinc.com"
+  136  "Luann","Michon","Macnaughton Einson Graphics","5 Goddard Rd","Montreal","QC","H2S 2G9","514-578-7262","514-640-1941","luann@cox.net","http://www.macnaughtoneinsongraphics.com"
+  137  "Verona","Jobst","M C Green & Sons","9041 Grand Plaza Plac","Montreal","QC","H3V 1E3","514-842-7487","514-879-3678","verona_jobst@jobst.org","http://www.mcgreensons.com"
+  138  "Rikki","Montalgo","Emergency Management","7 Lagrange St #10","Montreal","QC","H2K 3M3","514-472-6857","514-563-2884","rikki@montalgo.com","http://www.emergencymanagement.com"
+  139  "Ricki","Traux","Collins, Frederick H Esq","995 Concord Rd","Montreal","QC","H3J 1S4","514-657-1920","514-784-4720","ricki.traux@traux.com","http://www.collinsfrederickhesq.com"
+  140  "Clemencia","Momplaisir","Computer System Dynamics","698 N Allen Rd","Montreal","QC","H3J 2N8","514-804-3533","514-427-6426","cmomplaisir@yahoo.com","http://www.computersystemdynamics.com"
+  141  vim ca_city_Montreal.csv 
+  142  grep -iw "Montreal" ca_500.csv >> ca_city_Montreal.csv
+  143  ls
+  144  ca
+  145  cat ca_city_Montreal.csv 
+  146  histoy
+  147  history
+  148  ls
+  149  vim 2203115_data_filter.sh
+  150  bash 2203115_data_filter.sh 2 56 44
+  151  vim 2203115_data_filter.sh
+  152  bash 2203115_data_filter.sh 2 56 44
+  153  vim 2203115_data_filter.sh
+  154  bash 2203115_data_filter.sh 2 56 44
+  155  vim 2203115_data_filter.sh
+  156  bash 2203115_data_filter.sh iitgoa hj kk
+  157  vim 2203115_data_filter.sh
+  158  bash 2203115_data_filter.sh iitgoa hj kk
+  159  vim 2203115_data_filter.sh
+  160  ls
+  161  cd 2203115-lab-exam/
+  162  ls
+  163  vim README.md 
+  164  history
+  165  cd
+  166  ls
+  167  ls 2203115-lab-exam/
+  168  cd 2203115-lab-exam/
+  169  history >> 2203115_history.txt
+  170  cd
+  171  vim 2203115_data_filter.sh 
+  172  ls
+  173  vim 2203115_data_filter.sh 
+  174  bash 2203115_data_filter.sh iitgoa hj kk
+  175  vim 2203115_data_filter.sh 
+  176  bash 2203115_data_filter.sh iitgoa hj kk
+  177  vim 2203115_data_filter.sh 
+  178  bash 2203115_data_filter.sh iitgoa hj kk
+  179  vim 2203115_data_filter.sh 
+  180  bash 2203115_data_filter.sh iitgoa hj kk
+  181  vim 2203115_data_filter.sh 
+  182  bash 2203115_data_filter.sh us_500.csv city Miami
+  183  ls
+  184  vim 2203115_data_filter.sh 
+  185  ls
+  186  bash 2203115_data_filter.sh us_500.csv city Miami
+  187  vim 2203115_data_filter.sh 
+  188  ls
+  189  bash 2203115_data_filter.sh us_500.csv city Miami
+  190  ls
+  191  cat us_city_Miami.csv
+  192  bash 2203115_data_filter.sh us_500.csv city Miami
+  193  vim 2203115_data_filter.sh 
+  194  cp 2203115
+  195  cp 2203115_data_filter.sh 
+  196  cp 2203115_data_filter.sh ~/2203115-lab-exam/
+  197  ls
+  198  cd 2203115-lab-exam
+  199  ls
+  200  history > 2203115_history.txt 
